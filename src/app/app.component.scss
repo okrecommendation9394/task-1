@@ -1,0 +1,19 @@
+.container {
+  &__button {
+    background-color: rgb(162, 162, 243);
+    border: none;
+    border-radius: 8px;
+    padding: 0.4rem 0.7rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  &__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3rem;
+    padding: 1.5rem;
+  }
+  &__cards div {
+    grid-column: 1 / span 2;
+  }
+}

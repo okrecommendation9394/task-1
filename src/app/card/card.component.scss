@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+.deleted {
+  background-color: rgb(143, 17, 17);
+}
+.active {
+  background-color: rgb(40, 211, 40);
+}
+.inactive {
+  background-color: rgb(91, 91, 220);
+}

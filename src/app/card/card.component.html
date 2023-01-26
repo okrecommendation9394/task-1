@@ -1,0 +1,8 @@
+<div class="card" appStatus [status]="card?.status">
+  <div class="card__name">{{ card?.firstName }} {{ card?.lastName }}</div>
+  <div class="card__about">{{ card?.about }}</div>
+  <div class="card__age">{{ card?.birthDate | age }} years old</div>
+  <div class="card__status" [ngClass]="setStatusBackground()">
+    {{ card?.status }}
+  </div>
+</div>
