@@ -3,13 +3,17 @@
   flex-direction: column;
   justify-content: flex-start;
   padding: 1rem;
+  row-gap: 0.3rem;
 }
 .deleted {
   background-color: rgb(143, 17, 17);
+  font-weight: 900;
 }
 .active {
   background-color: rgb(40, 211, 40);
+  font-weight: 900;
 }
 .inactive {
   background-color: rgb(91, 91, 220);
+  font-weight: 900;
 }
